@@ -9,9 +9,10 @@ header{
 }
 
 input{
-        width: 1348px;
-        height: 60px;
-        margin:0;
+        width: 880px;
+        height: 45px;
+        margin-top: 5%;
+        margin: 15px;
         border: 0.5px solid;
         border-radius: 30px;
         background-color: rgb(232, 225, 218);
@@ -20,7 +21,7 @@ input{
 
 .grid-button-01{
     display: inline-block;
-    margin: 15px;
+    margin: 10px;
     
 }
 
@@ -31,7 +32,7 @@ input{
     height: 60px;
     border-radius: 30px;
     cursor: pointer;
-    margin: 2px;
+    margin: 1px;
 }
 .grid-button-01 form{
     display: inline-block;
@@ -39,7 +40,7 @@ input{
     height: 60px;
     border-radius: 30px;
     border-color: white;
-    margin: 2px;
+    margin: 1px;
     cursor: pointer;
 
 }
@@ -49,7 +50,7 @@ input{
     height: 60px;
     border-radius: 30px;
     border-color: white;
-    margin: 2px; 
+    margin: 1px; 
     cursor: pointer;
 }
 .grid-button-01 :hover{
@@ -62,7 +63,7 @@ input{
  
 .grid-button-02{
     display: inline-block;
-   margin: 15px;
+   margin: 10px;
 }
 .grid-button-02 form{
     display: inline-block;
@@ -70,7 +71,7 @@ input{
     height: 60px;
     border-radius: 30px;
     border-color: white;
-    margin: 2px;
+    margin: 1px;
     cursor: pointer;
 }
 
@@ -80,9 +81,19 @@ input{
     height: 60px;
     border-radius: 30px;
     border-color: white;
-    margin: 2px; 
+    margin: 1px; 
     cursor: pointer;
 }
+.grid-button-02 button{
+    display: inline-block;
+    width: 60px;
+    height: 60px;
+    border-radius: 30px;
+    border-color: white;
+    margin: 1px; 
+    cursor: pointer;
+}
+
 .grid-button-02 :hover{
     filter: contrast(0.6);
 }
@@ -96,7 +107,7 @@ input{
     margin: 0 auto;
 }
 .images img{  
-    width: 230px;
+    width: 200px;
     height: 400px; 
     object-fit: cover;
     border-radius: 20px;
@@ -107,4 +118,13 @@ input{
 }
 .images :hover{
     filter: opacity(0.7);
+}
+   
+
+@media(max-width:880px){ 
+    input{
+        background-color: rgb(200, 202, 203);
+        width: auto;
+        height: 45px;
+      }
 }
